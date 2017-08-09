@@ -45,7 +45,7 @@ gulp.task('stylesheets', function() {
 ### after: style.css
 
 ```css
-..class{background:url(myfile.jpg?v=2017080993403);}
+.class{background:url(myfile.jpg?v=2017080993403);}
 
 ```
 
