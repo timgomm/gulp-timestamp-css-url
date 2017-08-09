@@ -1,0 +1,40 @@
+{
+  "name": "gulp-timestamp-css-url",
+  "version": "0.0.1",
+  "description": "Add timestamps to images and fonts in CSS files",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timgomm/gulp-timestamp-css-url"
+  },
+  "author": {
+    "name": "Tim Gomm",
+    "email": "timgomm@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "image version",
+    "css",
+    "timestamp",
+    "timestamps"
+    "datestamp",
+    "time stamp",
+    "date time",
+    "datetime"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.0",
+    "through2": "^0.6.1",
+    "q":"^1.0.1"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/timgomm/gulp-timestamp-css-url",
+  "_id": "gulp-timestamp-css-url@0.0.1",
+  "_from": "gulp-timestamp-css-url@"
+}
