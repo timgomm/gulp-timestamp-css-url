@@ -11,11 +11,11 @@ npm install gulp-timestamp-css-url
 ## Usage
 
 ```js
-var makeUrlVer = require('gulp-timestamp-css-url');
+var cssTimeStamp = require('gulp-timestamp-css-url');
 
 gulp.task('stylesheets', function() {
     gulp.src('css/*.css')
-        pipe(makeUrlVer({useDate:true}))
+        pipe(cssTimeStamp({useDate:true}))
 });
 ```
 
@@ -24,11 +24,11 @@ gulp.task('stylesheets', function() {
 assetsDir: specify the public directory for correct MD5 calculation in some specific cases
 
 ```js
-var makeUrlVer = require('gulp-timestamp-css-url');
+var cssTimeStamp = require('gulp-timestamp-css-url');
 
 gulp.task('stylesheets', function() {
     gulp.src('css/*.css')
-        .pipe(makeUrlVer({
+        .pipe(cssTimeStamp({
             assetsDir: __dirname + '/public'
         }))
 });
