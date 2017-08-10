@@ -50,4 +50,7 @@ gulp.task('stylesheets', function() {
 
 ```
 
+## Credit
+
+Forked from https://github.com/hellopao/gulp_plugin/tree/master/gulp-make-css-url-version
 
