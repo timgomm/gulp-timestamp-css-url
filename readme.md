@@ -1,6 +1,7 @@
 ## gulp-timestamp-css-url
 
-a plugin for gulp.js to replace version for images in css files,the version should be file's md5 or time stamp;
+a plugin for gulp.js to add timestamps to images and fonts in CSS files
+
 
 ## Installation
 
